@@ -1,0 +1,3 @@
+## PDF Extrakce požadovaných hodnot z výročních zpáv penzijních společností
+
+Pro extrakci je použita knihovna tabula-py. Extrakce hodnot z PDF souborů může být problematická v případě, kdy každý dokument má jinou strukturu, což je i tento případ. Proto je třeba pokryýt co největší množství rozložení a formátování stránek v PDF souborů. K tomu v tomto případě nejlépe posloužil package tabula-py a funkce read_pdf s parametrem Stream=True. 
